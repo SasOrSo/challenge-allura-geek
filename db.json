@@ -1,0 +1,25 @@
+{
+    "productos": [
+  
+      {
+        "id": "1",
+        "nombre": "Star Wars poster",
+        "precio": 12000,
+        "imagen": "https://unsplash.com/photos/white-and-black-lego-toy-B7N0IjiIJYo"
+      },
+  
+      {
+        "id": "2",
+        "nombre": "The Legend of Zelda: Breath of the Wild estatua",
+        "precio": 60000,
+        "imagen": "https://example.com/imagen/zelda-breath-of-the-wild.jpg"
+      },
+  
+      {
+        "id": "3",
+        "nombre": "God of War",
+        "precio": 5000,
+        "imagen": "https://example.com/imagen/god-of-war.jpg"
+      } 
+    ] 
+  }
