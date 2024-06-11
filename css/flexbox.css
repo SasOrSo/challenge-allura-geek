@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Seccion Mis Productos*/
+
+.mis_productos{
+    display: flex;
+    flex-direction: column;
+}
+
+.mis_productos h1{
+    display: flex; 
+    padding: 24px;
+}
+
+.productos-card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.producto-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-boton{
+    display: flex;
+    align-self:last self-end;
+    color: white;
+    padding-right: 5px;
+}
+
+/*Seccion Agregar Productos Formulario*/
+
+.agregar-productos h1, .mis_productos h1{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+
+.productos-formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    gap: 40px;
+}

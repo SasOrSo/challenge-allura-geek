@@ -5,26 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Allura Geek Store</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <h1 class="titulo">Allura Geek</h1>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/videogame.png" type="image/png">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/trash.css' rel='stylesheet'>
+    <h1 class="titulo"><img src="./img/image 1.svg" alt="logo" />Allura Geek</h1>
   </head>
   <body>
-    <main>
-        <section class="productos">Mis Productos</section> 
+    <main class="principal">
 
+      <section class="mis_productos">
+          <h1>Mis Productos:</h1>
 
-        
-        <section class="formulario">Agregar Producto</section>
-        <form class="main_formulario">
+          <section class="productos-card" data-lista>
+
+          </section>
+      </section>
+      
+      <section class="agregar-productos">
+        <h1>Agregar Producto:</h1>
+        <form class="productos-formulario" data-formulario>
     
-            <input type="text" id="nombre_producto" name="nombre_producto" placeholder="nombre...">
-            <input type="text" id="precio_producto" name="precio_producto" placeholder="precio">
-            <input type="text" id="foto_producto" name="foto_producto"placeholder="imagen">
-            <input type="submit" id="boton_enviar" name="boton_enviar" value="Enviar">
-            <input type="submit" id="boton_limpiar" name="boton_limpiar" value="Limpiar">
+            <input type="text" class="input-formulario" id="nombre_producto" name="nombre_producto" placeholder="nombre..." data-titulo>
+            <input type="text" class="input-formulario" id="precio_producto" name="precio_producto" placeholder="precio..." data-precio>
+            <input type="text" class="input-formulario" id="foto_producto" name="foto_producto"placeholder="imagen..." data-imagen>
+            <section class="botones">
+              <input type="submit" id="boton_enviar" name="boton_enviar" value="Enviar">
+          </section>
           </form>
+        </section>
     </main>
-	<script src="index.js"></script>
+
+    <footer class="pie_pagina">
+        <img src="./img/image 1.svg" alt="logo" />
+        <p class="footer-copyright">&#169; Desarrollado por: Saskya Ortega</p>
+        <p>2024</p>
+
+      </footer>
+	<script src="./js/mostrarProductos.js" type= "module"></script>
+  <script src="./js/crearProducto.js" type="module"></script>
+  <script src="./js/borrarProducto.js" type="module"></script>
   </body>
 </html>

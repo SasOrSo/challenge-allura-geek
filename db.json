@@ -1,25 +1,35 @@
 {
-    "productos": [
-  
-      {
-        "id": "1",
-        "nombre": "Star Wars poster",
-        "precio": 12000,
-        "imagen": "https://unsplash.com/photos/white-and-black-lego-toy-B7N0IjiIJYo"
-      },
-  
-      {
-        "id": "2",
-        "nombre": "The Legend of Zelda: Breath of the Wild estatua",
-        "precio": 60000,
-        "imagen": "https://example.com/imagen/zelda-breath-of-the-wild.jpg"
-      },
-  
-      {
-        "id": "3",
-        "nombre": "God of War",
-        "precio": 5000,
-        "imagen": "https://example.com/imagen/god-of-war.jpg"
-      } 
-    ] 
-  }
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Star Wars poster",
+      "precio": 12000,
+      "imagen": "https://media.istockphoto.com/id/500755774/es/foto/lightsaber-en-el-espacio-medio-ambiente-listo-para-bocetos-de-sus-personajes.jpg?s=2048x2048&w=is&k=20&c=s001ceYCPJBrYKOdNydZfEHqG8JoQ8HayuUth4SFLSE="
+    },
+    {
+      "id": "2",
+      "titulo": "Videojuego Zelda",
+      "precio": 25000,
+      "imagen": "https://media.istockphoto.com/id/458477733/es/foto/phantom-juego-de-reloj-de-arena.jpg?s=2048x2048&w=is&k=20&c=HuYuPXE91Ulrq4fALK3mjP8IzvaOi8Lj8CQDCdwWTzE="
+    },
+    {
+      "id": "3",
+      "titulo": "Nintendo Switch",
+      "precio": 150000,
+      "imagen": "https://media.istockphoto.com/id/1196549260/es/foto/nintendo-switch-y-el-peque%C3%B1o-nintendo-switch-lite-comparaci%C3%B3n-de-dos-consolas-de-videojuegos.jpg?s=2048x2048&w=is&k=20&c=yl01rbxikw6EXFvcNtU8R1e_p7gGELWRA9LFJFaEeSo="
+    },
+    {
+      "id": "4",
+      "titulo": "Super Nintedo",
+      "precio": 80000,
+      "imagen": "https://media.istockphoto.com/id/1247305407/es/foto/super-nintendo-classic-en-uso.jpg?s=2048x2048&w=is&k=20&c=P53TIXcAuin-iJfZJDgMUqJ4n9N8I5cnH1MyvK3lGF4="
+    },
+    {
+      "id": "5",
+      "titulo": "Batman Lego",
+      "precio": 6000,
+      "imagen": "https://media.istockphoto.com/id/518069822/es/foto/trabajo-duro.jpg?s=2048x2048&w=is&k=20&c=ImP43Pn2EGWXoNuIWCgaIf7qeoW7V3C-Elro3wpLCAo="
+    }
+
+  ]
+}
