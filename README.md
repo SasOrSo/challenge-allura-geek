@@ -5,7 +5,7 @@ Este proyecto simula una API para una tienda en línea utilizando JSON Server y 
 ## Configuración Inicial
 
 1. Clona el repositorio:
-git clone url-del-repositorio
+git clone [url-del-repositorio](https://github.com/SasOrSo/challenge-allura-geek/tree/main)
 
 2. Instala las dependencias:
 npm install
