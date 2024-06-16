@@ -29,7 +29,12 @@
       "titulo": "Batman Lego",
       "precio": 6000,
       "imagen": "https://media.istockphoto.com/id/518069822/es/foto/trabajo-duro.jpg?s=2048x2048&w=is&k=20&c=ImP43Pn2EGWXoNuIWCgaIf7qeoW7V3C-Elro3wpLCAo="
+    },
+    {
+      "id": "c120",
+      "imagen": "https://media.istockphoto.com/id/488539996/es/foto/marinero-moon.jpg?s=2048x2048&w=is&k=20&c=70G24dcWV-fyR3fDUGDy8OhhA-EZMTsOObZE82S8o4M=",
+      "titulo": "SailorMoon",
+      "precio": "8000"
     }
-
   ]
 }

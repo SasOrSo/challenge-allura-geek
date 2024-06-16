@@ -25,14 +25,17 @@ main{
 
 /*Seccion Mis Productos*/
 
-.mis_productos h1{
+.mis_productos h1, .agregar-productos h1{
     font-family: "Press Start 2P", system-ui;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
     text-align: center;
+}
+
+.mis_productos h1{
     width: 578px;
     height: 24px;
-
 }
 
 .productos-card{
@@ -40,7 +43,6 @@ main{
     width: 678px;
     height: 971px;
     padding: 15px;
-    gap: 115px;
 }
 
 .card{
@@ -83,7 +85,8 @@ main{
 /*Seccion Agregar Productos Formulario*/
 
 .agregar-productos h1{
-    font-family: "Press Start 2P", system-ui;
+    width: 392px;
+    height: 48px;
 }
 
 .agregar-productos{
@@ -138,4 +141,23 @@ footer{
     font-family: "DotGothic16", sans-serif;
     padding: 10px;
     size: 14px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 430px) {
+
+body{
+    width: 430px;
+    height: 1703px;
+    background-color: #889CB0ff;
+}
+
+/*Seccion Pie de Pagina*/
+
+footer{
+    width: 430px;
+    height: 168px;
+    margin-top: 1535px;
+    padding: 64px;
+}
 }

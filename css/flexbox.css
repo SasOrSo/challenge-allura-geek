@@ -8,17 +8,16 @@ main{
 .mis_productos{
     display: flex;
     flex-direction: column;
+    width: 758px;
+    height: 1115px;
 }
 
-.mis_productos h1{
-    display: flex; 
-    padding: 24px;
-}
 
 .productos-card{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -54,4 +53,14 @@ main{
     flex-direction: column;
     margin: 20px 10px;
     gap: 40px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 450px) {
+
+.principal{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 340px;
+}
 }
